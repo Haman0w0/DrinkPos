@@ -3,11 +3,9 @@
 
 ---
 # 使用方法
-* 步驟1  
-	建立DrinkPos資料庫，關聯表在下面
+1. 建立DrinkPos資料庫，關聯表在下面
 
-* 步驟2  
-  修改在/DrinkPos/App.config裡的程式碼  
+2. 修改在/DrinkPos/App.config裡的程式碼  
   ```<add name="PosConnection" connectionString="Server = xxx.xxx.xxx.xxx; Database = xxxx; User Id = xxxx; Password = xxxx;"/>```  
   Server = 資料庫伺服器的ip位址  
   Database = 存放飲料資料庫的名稱  
